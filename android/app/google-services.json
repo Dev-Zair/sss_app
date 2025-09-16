@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "521004764219",
+    "project_id": "sss-zair-app",
+    "storage_bucket": "sss-zair-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521004764219:android:da32d6c2260a54f946601e",
+        "android_client_info": {
+          "package_name": "com.example.sss_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAr0HN5s7sEYIWxEJ_Y_CzeXwRqa9FVZBw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

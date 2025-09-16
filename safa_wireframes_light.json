@@ -1,0 +1,127 @@
+{
+  "document": {
+    "children": [
+      {
+        "id": "1",
+        "name": "Splash",
+        "type": "FRAME",
+        "children": [
+          {
+            "id": "1-1",
+            "name": "Logo",
+            "type": "RECTANGLE",
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.133,
+                  "g": 0.576,
+                  "b": 0.424
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "name": "Home",
+        "type": "FRAME",
+        "children": [
+          {
+            "id": "2-1",
+            "name": "TabBar",
+            "type": "FRAME",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "name": "Travel",
+        "type": "FRAME",
+        "children": [
+          {
+            "id": "3-1",
+            "name": "SearchBar",
+            "type": "RECTANGLE"
+          },
+          {
+            "id": "3-2",
+            "name": "Filter",
+            "type": "RECTANGLE"
+          },
+          {
+            "id": "3-3",
+            "name": "Slider",
+            "type": "RECTANGLE"
+          },
+          {
+            "id": "3-4",
+            "name": "HotTours",
+            "type": "FRAME"
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "name": "Travel Detail",
+        "type": "FRAME",
+        "children": [
+          {
+            "id": "4-1",
+            "name": "Image",
+            "type": "RECTANGLE"
+          },
+          {
+            "id": "4-2",
+            "name": "Title",
+            "type": "TEXT"
+          },
+          {
+            "id": "4-3",
+            "name": "Description",
+            "type": "TEXT"
+          },
+          {
+            "id": "4-4",
+            "name": "BookButton",
+            "type": "RECTANGLE"
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "name": "Sadaqa",
+        "type": "FRAME",
+        "children": [
+          {
+            "id": "5-1",
+            "name": "SearchBar",
+            "type": "RECTANGLE"
+          },
+          {
+            "id": "5-2",
+            "name": "Filter",
+            "type": "RECTANGLE"
+          },
+          {
+            "id": "5-3",
+            "name": "DonationList",
+            "type": "FRAME"
+          },
+          {
+            "id": "5-4",
+            "name": "ProgressBar",
+            "type": "RECTANGLE"
+          },
+          {
+            "id": "5-5",
+            "name": "JoinButton",
+            "type": "RECTANGLE"
+          }
+        ]
+      }
+    ]
+  }
+}

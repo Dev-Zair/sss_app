@@ -1,5 +1,3 @@
-// ignore_for_file: deprecated_member_use
-
 import 'package:flutter/material.dart';
 import 'package:sss_app/src/common/styles/app_colors.dart';
 
@@ -26,7 +24,7 @@ class PrimaryButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ElevatedButton(
-      onPressed: onPressed,
+      onPressed: (isEnabled && !isLoading) ? onPressed : null,
       style: ElevatedButton.styleFrom(
         backgroundColor: isEnabled ? color : color.withOpacity(0.5),
         padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
